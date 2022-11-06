@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+    font-family:monospace;
+      
+}
+
+.left{
+    
+    background-repeat: no-repeat, no-repeat;
+    background-color: #212529;
+    width: 40%;
+    height: 719px;
+    float: left;
+    margin-top: -21px;
+}
+
+#nav-div {
+
+}
+
+.right{
+    background-image: url();
+    background-size: 1920px 1358px;
+    background-position: 0px;
+    background-repeat: no-repeat, no-repeat;
+    background-color: #181b1e;
+    width: 100%;
+    height: 698px;
+    margin-top: -27px;
+}
+
+.background-img {
+    width: 379px;
+    height: 333px;
+    background-color: red;
+    float: left;
+    margin-top: 66px;
+}
+
+.nav-btn {
+    margin-top: 65px;
+    float: left;
+    background: white;
+    border-radius: 5px;
+}
+
+.nav-a {
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1px;
+    margin: 15px;
+    color: white;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: -70px;
+    margin-left: 169px;
+}
+
+.profile-img{
+    display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+
+.about {
+    background-color: #28a745;
+    margin-top: 159px;
+    width: 50%;
+    float: left;
+    margin-left: 67px;
+}
+
+.about-para{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 8px;
+}
+.Name{
+    width: auto;
+    color: white;
+    font-size: 50px;
+    float: left;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 105px;
+}
+
+.profile-back {
+    background-color: #181b1e;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin-top: -234px;
+    margin-left: 227px;
+}
+
+.profile-back-2 {
+    background-color: #212529;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin-left: 217px;
+    margin-top: -188px;
+}
+
+a {
+    line-height: 1em;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 87px;
+}
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #b8b8b8;
+}

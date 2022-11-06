@@ -1,0 +1,285 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c7c7c7;
+    font-family:monospace;
+      
+}
+.home{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.left{
+    background-color: #212529;
+    float: left;
+    position: fixed;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    background-color: #181b1e;
+    border-radius: 10px;
+
+}
+.circle{
+    width: 140px;
+    height: 140px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 209.5px;
+    
+    
+}
+.left-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -170px;
+
+}
+.profile-img{
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.name{
+    color: white;
+    text-align: center;
+}
+.social-media {
+
+}
+.socialmedia-icon{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialmedia-icon:hover{
+    color: #929292;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.right{
+    background-color: #181b1e;
+    float: right;
+ 
+}
+#manin-head-home{
+    color: #ffffff;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+}
+.about-div{
+    background-color: #28a745;
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    border-radius: 3px;
+}
+.about-h1-div{
+    background-color: #212529;
+    margin-top: 31px;
+    padding-top: 15px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-h1{
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.progress {
+    height: 10px;
+    margin-bottom: 2.2em;
+    background-color: #212529;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.progress-bar {
+    background-color: #ffffff;
+}
+.progress-striped .progress-bar,
+.progress-bar-striped {
+    background-image: none!important;
+}
+.bar-grids h6 span {
+    float: right;
+    font-size: 1em;
+}
+.bar-grids h6 {
+    font-size: 15px;
+    color: #b4b4b4;
+    margin-bottom: 7px;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+}
+.my-photo{
+    width: 100%;
+    overflow: hidden;
+
+}
+.service {
+    background-color: #ffffff;
+    float: right;
+
+}
+#main-head-service{
+    color: #000000;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.service-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    width: 100%;
+
+}
+.service-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+.card-text{
+    font-size: small;
+}
+.project-heading{
+    color: #ffffff;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+}
+.project{
+    float: right;
+    width: 100%;
+    background-color:#181b1e;
+}
+
+.project-img-div{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    
+}
+.project-img{
+    height: 200px;
+}
+.contact{
+    width: 100%;
+    background-color: #ffffff;
+    float: right;
+}
+.Contact-heading{
+    color: #000000;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+}
+.contact-left{
+    background-color: #181b1e;
+    border-radius: 10px;
+
+}
+.contact-right{
+    background-color: #181b1e;
+    float: right;
+    border-radius: 10px;
+}
+.icon i {
+    font-size: 20px;
+    color: #fff;
+    float: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.mini-heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.contact-p{
+    float: left;
+    font-size: 10px;
+    color: white;
+
+
+}
+.contact-icon-names{
+    margin-left: 10px;
+    float: left;
+    color: white;
+}
+.contact-p{
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+.mail{
+    width: 50px;
+}
+.phone{
+    width: 50%;
+}
+.address{
+    width: 50%;
+}
+.main-section{
+    background-color: #212529;
+}
+/*-- contact get in touch --*/
+label {
+    width: 17%;
+    float: left;
+    color: #fff;
+    font-weight: 600;
+    
+}
+input{
+    width: 100%;
+    background-color: #181b1e;
+    border-color: #ffffff;
+    color: white;
+    border-radius: 5px;
+    
+}
+.get-in-touch-input{
+    float: right;
+}
+.get-in-touch-label{
+    width: 100%;
+}
+.textarea-contact{
+    width: 50%;
+    float: right;
+}
