@@ -1,3 +1,3 @@
 # website
 This is my personal website
-It's not completed!
+and It's not completed!
