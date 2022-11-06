@@ -19,16 +19,16 @@
 
 <body>
     <section>
-        <!--Home-->
+        <!--Home div section-->
         <div id="home" class="home row">
             <div class="left h-100 col-5">
                 <div class="navigation container">
                     <nav class="navbar navbar-expand-lg">
                         <div class="container">
-                            <a class="navbar-brand" href="#home">Home</a>
-                            <a class="navbar-brand" href="#service">Service</a>
-                            <a class="navbar-brand" href="#project">Project</a>
-                            <a class="navbar-brand" href="#contact">Contact</a>
+                            <a class="navbar-brand link" href="#home">Home</a>
+                            <a class="navbar-brand link" href="#service">Service</a>
+                            <a class="navbar-brand link" href="#project">Project</a>
+                            <a class="navbar-brand link" href="#contact">Contact</a>
                         </div>
                     </nav>
                 </div>
@@ -39,13 +39,13 @@
                 </div>
                 <h1 class="name mt-3">Faraz Shafi</h1>
                 <div class="row">
-                    <div class="footer col-5 ">
+                    <div class="footer mb-2 col-5 ">
                         <div class="social-media  container">
                             <div class="row ">
                                 <div class="col">
                                     <a target="_blank" class="socialmedia-icon"
                                         href="https://www.instagram.com/faraz_pachu/">
-                                        <ion-icon name="logo-instagram"></ion-icon>
+                                        <ion-icon class="instagram" name="logo-instagram"></ion-icon>
                                     </a>
                                 </div>
                                 <div class="col">
@@ -254,11 +254,11 @@
                                 <h5 class="contact-icon-names">Email</h5>
                             </div>
                             <div class="col-12 mail mt-5">
-                                <p class="contact-p"><a class="contact-a" href="mailto:farazpachu777@email.com">
+                                <p class="contact-p"><a class="contact-links" href="mailto:farazpachu777@email.com">
                                         farazpachu777@gmail.com</a></p>
                             </div>
                             <div class="col-12 mail">
-                                <p class="contact-p "><a href="mailto:farazpachu777@email.com">
+                                <p class="contact-p "><a class="contact-links" href="mailto:farazpachu777@email.com">
                                         farazshafi123@gmail.com</a></p>
                             </div>
                             <!--phone-->
@@ -268,10 +268,10 @@
                             </div>
 
                             <div class="col-12 phone mt-5">
-                                <p class="contact-p"><a href="tel:+919188773788">+91 9188773788</a></p>
+                                <p class="contact-p"><a class="contact-links" href="tel:+919188773788">+91 9188773788</a></p>
                             </div>
                             <div class="col-12 phone">
-                                <p class="contact-p "><a href="tel:+919497611440">+91 9497611440</a></p>
+                                <p class="contact-p "><a class="contact-links" href="tel:+919497611440">+91 9497611440</a></p>
                             </div>
                             <!--Location-->
 
@@ -291,8 +291,8 @@
                         <!--get in touch-->
                         <div class=" contact-right mt-3 col-lg-6">
 
-                            <form id="submit-form" class="col-lg-12"
-                                action="">
+                            <form id="gform" class="col-lg-12"
+                                action="https://script.google.com/macros/s/AKfycbwYmc8IzQse2VaIJVsYmCUCaHf_31-FY-mdy78YQpGwVQ4WvJNNzIrFzkfa4XZxvHcl/exec">
                                 <h1 class="mini-heading mt-5 ">Get In Touch</h1>
                                 <label for="fname" class="mt-5"><i class="fa mr-2 fa-user" aria-hidden="true"></i>
                                     Name</label>
@@ -343,25 +343,6 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
-    </script>
-    <script>
-        $("#submit-form").submit((e) => {
-            e.preventDefault()
-            $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbwYmc8IzQse2VaIJVsYmCUCaHf_31-FY-mdy78YQpGwVQ4WvJNNzIrFzkfa4XZxvHcl/exec",
-                data: $("#submit-form").serialize(),
-                method: "post",
-                success: function (response) {
-                    alert("Form submitted successfully")
-                    window.location.reload()
-                    //window.location.href="https://google.com"
-                },
-                error: function (err) {
-                    alert("Something Error")
-
-                }
-            })
-        })
     </script>
 </body>
 
