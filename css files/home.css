@@ -29,9 +29,17 @@ a{
 .navbar {
     background-color: #181b1e;
     border-radius: 10px;
+    width: auto;
 
 }
+.navigation{
+    width: auto;
+}
+.nav-link{
+    font-size: 10px;
+    text-align: center;
 
+}
 .circle {
     width: 140px;
     height: 140px;
@@ -123,12 +131,15 @@ a{
 }
 
 .about-h1 {
-    font-size: 15px;
+    font-size: 10px;
     align-items: center;
     text-align: center;
     color: white;
 }
-
+.about-para{
+    text-align: center;
+    font-size: 15px;
+}
 .progress {
     height: 10px;
     margin-bottom: 2.2em;
@@ -201,7 +212,7 @@ h4 {
 }
 
 .card-text {
-    font-size: small;
+    font-size: 10px;
 }
 
 .project-heading {
