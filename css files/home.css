@@ -374,3 +374,10 @@ input {
     background-color: #000000;
     float: right;
 }
+.project-btn{
+    cursor: pointer;
+}
+.project-btn:hover{
+    color: #bdbdbd;
+    text-decoration: none;
+}
